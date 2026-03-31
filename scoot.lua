@@ -15,7 +15,10 @@ end
 
 local LoadTick = os.clock()
 
-local Library do
+_G.Library = {}
+
+local Library = _G.Library
+do
     local Workspace = game:GetService("Workspace")
     local UserInputService = game:GetService("UserInputService")
     local Players = game:GetService("Players")
