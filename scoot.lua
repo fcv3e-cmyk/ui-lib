@@ -6216,4 +6216,6 @@ do
         return SettingsPage
     end
 end
-return _G.Library
+_G.Library = Library
+Library.Components = Components
+return Library
